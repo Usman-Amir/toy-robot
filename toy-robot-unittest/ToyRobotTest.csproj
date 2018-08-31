@@ -61,9 +61,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\toy-robot\toy-robot.csproj">
+    <ProjectReference Include="..\toy-robot\ToyRobot.csproj">
       <Project>{21da580f-6e18-4f2f-a708-f42de9daff6a}</Project>
-      <Name>toy-robot</Name>
+      <Name>ToyRobot</Name>
       <Private>True</Private>
     </ProjectReference>
   </ItemGroup>

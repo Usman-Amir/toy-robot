@@ -4,14 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace toy_robot
+namespace ToyRobot
 {
-	class Position
+	public class Position
 	{
 		
 		public int x, y;
 		public string direction;
-		Position(int x, int y, string direction)
+		public Position(int x, int y, string direction)
 		{
 			this.x = x;
 			this.y = y;

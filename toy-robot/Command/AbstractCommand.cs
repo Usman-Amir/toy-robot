@@ -6,15 +6,8 @@ using System.Threading.Tasks;
 
 namespace ToyRobot
 {
-	public class Command
+	public class AbstractCommand
 	{
-		enum RobotCommand
-		{
-			PLACE,
-			MOVE,
-			LEFT,
-			RIGHT,
-			REPORT
-		}
+
 	}
 }
