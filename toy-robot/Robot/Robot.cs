@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using ToyRobot;
 
-namespace toy_robot
+namespace ToyRobot
 {
-	class Robot
+	public class Robot
 	{
 		public Position position;
 
