@@ -35,5 +35,17 @@ namespace ToyRobotTest
 			//Assert
 			Assert.AreEqual(true, IsPositionSet, "New Position of robot not set");
 		}
+		public void RobotPosition_InitializeRobot_RobotShouldNotAliveAsThereIsNoDirectino()
+		{
+			//Arrange
+			Robot robot = new Robot();
+			bool isAlive;
+			
+			//Act
+			isAlive = robot.IsAlive;
+
+			//Assert
+			Assert.AreEqual(false, isAlive, "Direction of robot is not yet set");
+		}
 	}
 }
