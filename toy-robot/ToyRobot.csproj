@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Command\AbstractCommand.cs" />
     <Compile Include="Command\Command.cs" />
+    <Compile Include="Command\PlaceCommand.cs" />
     <Compile Include="Helper\Position.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

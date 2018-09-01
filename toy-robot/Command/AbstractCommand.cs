@@ -13,7 +13,7 @@ namespace ToyRobot
 		{
 			this.robot = robot;
 		}
-		public bool execute(Position position)
+		public virtual bool execute(Position position)
 		{
 			Table table = new Table(position.x, position.y);
 			return table.IsPositionValid(position);
