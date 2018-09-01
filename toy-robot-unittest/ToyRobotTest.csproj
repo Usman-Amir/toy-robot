@@ -57,6 +57,7 @@
     <Otherwise />
   </Choose>
   <ItemGroup>
+    <Compile Include="Command\PlaceCommandTest.cs" />
     <Compile Include="Robot\RobotTest.cs" />
     <Compile Include="Table\TableTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
