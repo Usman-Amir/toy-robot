@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ToyRobot
 {
-	class RotateCommand : AbstractCommand
+	public class RotateCommand : AbstractCommand
 	{
 		public RotateCommand(Robot robot) : base(robot)
 		{
