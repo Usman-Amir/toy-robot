@@ -18,7 +18,7 @@ namespace ToyRobot
 			this.direction = direction;
 		}
 	}
-	class Direction
+	public class Direction
 	{
 		public enum directionEnum {
 			NORTH,
