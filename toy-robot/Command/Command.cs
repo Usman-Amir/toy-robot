@@ -8,7 +8,7 @@ namespace ToyRobot
 {
 	public class Command
 	{
-		enum RobotCommand
+		public enum RobotCommand
 		{
 			PLACE,
 			MOVE,
