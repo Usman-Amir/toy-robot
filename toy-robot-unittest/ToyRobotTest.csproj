@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="Command\PlaceCommandTest.cs" />
     <Compile Include="Command\MoveCommandTest.cs" />
+    <Compile Include="Command\RotateCommandTest.cs" />
     <Compile Include="Robot\RobotTest.cs" />
     <Compile Include="Table\TableTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
