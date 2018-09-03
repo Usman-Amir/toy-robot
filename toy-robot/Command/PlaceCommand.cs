@@ -14,7 +14,10 @@ namespace ToyRobot
 
 		public override bool execute(Position position)
 		{
-			return base.execute(position);
+			if (base.execute(position))
+				return false;
+			this.robot.SetPosition(position);
+			return true;
 		}
 	}
 }
