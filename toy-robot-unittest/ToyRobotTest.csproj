@@ -60,6 +60,7 @@
     <Compile Include="Command\PlaceCommandTest.cs" />
     <Compile Include="Command\MoveCommandTest.cs" />
     <Compile Include="Command\RotateCommandTest.cs" />
+    <Compile Include="Integration\IntegrationTest.cs" />
     <Compile Include="Robot\RobotTest.cs" />
     <Compile Include="Table\TableTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -74,6 +75,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

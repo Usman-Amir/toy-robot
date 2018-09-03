@@ -13,7 +13,7 @@ namespace ToyRobotTest
 		{
 			Robot robot = new Robot();
 			new RotateCommand(robot).execute(new Position(3, 4, "NORTH"), -1);
-			Assert.AreEqual("WEST", robot.CurrentPosition.direction, "The Intended position of robot is not correct, it should be west");
+			Assert.AreEqual("WEST", robot.CurrentPosition().direction, "The Intended position of robot is not correct, it should be west");
 		}
 
 		[TestMethod]
@@ -21,7 +21,7 @@ namespace ToyRobotTest
 		{
 			Robot robot = new Robot();
 			new RotateCommand(robot).execute(new Position(3, 4, "WEST"), 1);
-			Assert.AreEqual("NORTH", robot.CurrentPosition.direction, "The Intended position of robot is not correct, it should be north");
+			Assert.AreEqual("NORTH", robot.CurrentPosition().direction, "The Intended position of robot is not correct, it should be north");
 		}
 	}
 }

@@ -16,7 +16,7 @@ namespace ToyRobotTest
 			Position position;
 
 			//Act
-			position = robot.CurrentPosition;
+			position = robot.CurrentPosition();
 
 			//Assert
 			Assert.AreEqual(0, position.x, "Current position of Robot at x axis is not on table");
@@ -42,7 +42,7 @@ namespace ToyRobotTest
 			bool isAlive;
 			
 			//Act
-			isAlive = robot.IsAlive;
+			isAlive = robot.IsAlive();
 
 			//Assert
 			Assert.AreEqual(false, isAlive, "Direction of robot is not yet set");
