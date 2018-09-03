@@ -9,11 +9,11 @@ namespace ToyRobot
 {
 	public class InputCommandParser
 	{
-		static Regex placeRegex = new Regex(@"/^\s*PLACE\s+([\d]+)\s*,\s*([\d]+)\s*,\s*(EAST|WEST|NORTH|SOUTH)\s*$");
-		static Regex moveRegex = new Regex(@"^\s*MOVE\s*$");
-		static Regex leftRegex = new Regex(@"/^\s*LEFT\s*$");
-		static Regex rightRegex = new Regex(@"/^\s*RIGHT\s*$");
-		static Regex reportRegex = new Regex(@"/^\s*REPORT\s*$/");
+		static Regex placeRegex = new Regex(@"(?i)PLACE\s+([\d]+),([\d]+),(east|west|north|south)$");
+		static Regex moveRegex = new Regex(@"(?i)(MOVE)");
+		static Regex leftRegex = new Regex(@"(?i)(LEFT)");
+		static Regex rightRegex = new Regex(@"(?i)(RIGHT)");
+		static Regex reportRegex = new Regex(@"(?i)(REPORT)");
 
 		public static int parse(string input)
 		{
