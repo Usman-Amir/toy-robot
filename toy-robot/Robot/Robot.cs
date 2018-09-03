@@ -18,12 +18,9 @@ namespace ToyRobot
 		/*
       Gets the current position of the robot.
      */
-		public Position CurrentPosition
+		public Position CurrentPosition()
 		{
-			get
-			{
 				return position;
-			}
 		}
 		public bool SetPosition(Position position)
 		{
@@ -31,15 +28,12 @@ namespace ToyRobot
 			return true;
 		}
 
-		public bool IsAlive
+		public bool IsAlive()
 		{
-			get
-			{
 				if (string.IsNullOrEmpty(this.position.direction))
 					return false;
 				else
 					return true;
-			}
 		}
 	}
 }
