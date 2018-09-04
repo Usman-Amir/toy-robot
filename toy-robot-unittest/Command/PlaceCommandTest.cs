@@ -18,7 +18,7 @@ namespace ToyRobotTest
 
 			IsCommandPlaced = placecommand.execute(new Position(11, 4, "NORTH"));
 
-			Assert.AreEqual(false,IsCommandPlaced, "The Place command is not valid");
+			Assert.AreEqual(true,IsCommandPlaced, "The Place command is not valid");
 		}
 		[TestMethod]
 		public void CommandForRobot_PlaceValidPositionOnTable_ShouldPlaceRobotForValidPositino()
@@ -30,7 +30,7 @@ namespace ToyRobotTest
 
 			IsCommandPlaced = placecommand.execute(new Position(3, 4, "NORTH"));
 
-			Assert.AreEqual(false, IsCommandPlaced, "The Place command is not valid");
+			Assert.AreEqual(true, IsCommandPlaced, "The Place command is not valid");
 		}
 	}
 }

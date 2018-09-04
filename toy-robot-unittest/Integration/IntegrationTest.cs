@@ -97,7 +97,7 @@ namespace ToyRobotTest
 			commander.execute("LEFT");
 			response = commander.execute("REPORT");
 			Assert.AreEqual(5, robot.position.x, "Current x position of robot is not valid");
-			Assert.AreEqual(5, robot.position.y, "Current y position of robot is not valid");
+			Assert.AreEqual(10, robot.position.y, "Current y position of robot is not valid");
 			Assert.AreEqual("EAST", robot.position.direction, "Current direction of robot is not valid");
 		}
 
