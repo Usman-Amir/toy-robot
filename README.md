@@ -1,7 +1,6 @@
 [![Build Status](https://travis-ci.org/Usman-Amir/toy-robot.svg?branch=master)](https://travis-ci.org/Usman-Amir/toy-robot)
 
 # Toy Robot Simulator
-The Robot 
 
 ## Running Guide
 
